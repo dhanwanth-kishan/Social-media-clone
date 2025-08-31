@@ -73,3 +73,96 @@ hr {
 .txt{
     color: white;
 }
+.blk{
+    color: black;
+}
+
+
+
+ 
+
+/* landing-page */
+
+.signup-login{
+    text-decoration: none;
+    border: 1px solid white;
+    transition: transform 0.1s ease-in-out;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-family: sans-serif;
+    font-weight:lighter;
+    margin-left: -25%;
+
+}
+
+.signup-login:hover{
+    transform:scale(1.1) ;
+    background: linear-gradient(135deg, #A100FF, #F200FF);
+    box-shadow: 5px 5px 10px rgb(154, 106, 154);
+    
+    color: white;
+}
+.lhs{
+    margin-top: 10%;
+
+}
+.srch{
+    transition: transform ease-in-out 0.1s;
+    color: black;
+    border-color: black;
+}
+.srch:hover{
+    background-color: black;
+    color: white;
+}
+
+.ic{
+    transition: transform 0.1s ease-in-out;
+}
+
+.ic:hover{
+    transform: scale(1.1);
+   
+}
+
+/* add-profile */
+
+.bio{
+    width: 90%;
+
+}
+
+
+/*post-list  */
+.posit{
+    position: relative;
+}
+.isrch{
+    position: absolute;
+    bottom: 35%;
+    margin-left: 1%;
+    transform: translate(50,50);
+}
+.pos{
+    text-decoration: none;
+}
+.post-profile-pic{
+    width: 6%;
+    height: 45px;
+}
+.blknwhite{
+    transition: transform 0.1s ease-in-out;
+    background-color: white;
+   border-color: black;
+   padding: 5px;
+}
+.blknwhite:hover{
+background-color: black;
+    color: white;
+    transform: scale(1.02);
+}
+.srch-width{
+    width: 500px;
+    background-color:rgb(251, 252, 252)
+}
