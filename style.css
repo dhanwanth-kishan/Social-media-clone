@@ -160,9 +160,26 @@ hr {
 .blknwhite:hover{
 background-color: black;
     color: white;
-    transform: scale(1.02);
+    transform: scale(1.01);
+    
 }
 .srch-width{
     width: 500px;
     background-color:rgb(251, 252, 252)
 }
+.badg{
+    margin-left: -1%;
+    border-radius: 50%;
+    
+    
+}
+
+.txt-pop{
+    transition:transform 0.05s ease-in-out ;
+    display: inline-block;
+
+}
+.txt-pop:hover{
+    transform: scale(1.07);
+}
+

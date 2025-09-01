@@ -9,44 +9,65 @@
     <link rel="stylesheet" href="./style.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-<style>
-  #carouselExample .carousel-item img {
-    height: 400px; /* Change height as you want */
-    object-fit: cover; /* Ensures it crops without distortion */
-  }
-</style>
+
 
 <body>
-   
+   <!-- navbar -->
 
-     <nav class="navbar bg-primary border   navbar-expand-lg ">
-  
-  <div class="container-fluid">
-    <a class=" navbar-brand position-relative" style="font-family: sans-serif;" href="#"><i class="fa-solid fa-eye"></i> Tribio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse"   id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-       
+      <nav class="navbar position-relative posit navbar-expand-lg "
+    style="background: linear-gradient(135deg, #A100FF, #F200FF);;">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-1" href="#"><i class="fa-solid fa-eye fa-spin  fs-4 " style="color: white;"></i> <span
+          class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-           <li class="nav-item ">
-               <a class="nav-link active" href="#">About Us</a>
-            </li>
-             <li class="nav-item ">
-               <a class="nav-link active" href="#">Contact Us</a>
-            </li>
-            <form class="d-flex position-absolute end-0 top-5 " role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn srch me-4" type="submit">Search</button>
-      </form>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+
+          <li class="nav-item ms-2">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-home fs-4 me-2"></i><span class="txt-pop">Home</span></a>
+          </li>
+          <li class="nav-item text-end ">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell fs-4  pe-2 ms-2">
+              </i><span class="badge fs-7 bg-danger badg position-absolute ">6</span> <span
+                class="ms-2 txt-pop">Notifications</span> </a>
+
+          </li>
+
+
+
+          <form class="d-flex ms-5" role="search">
+
+            <input class="form-control srch-width rounded-pill me-2" type="search" placeholder="      Search"
+              aria-label="Search" />
+            <i class="fa-solid fa-search isrch "> </i>
+          </form>
+
+          <li class="nav-item ms-2">
+            <a class="nav-link active" aria-current="page" href="#"><i
+                class="fa-solid fa-address-card fs-4 me-2"></i><span class="txt-pop">About Us</span></a>
+          </li>
+
+
+          <li class="nav-item ms-2">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-headset fs-4 me-2"></i>
+              <span class="txt-pop">Contact Us</span></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#"><i
+                class="fa-solid fa-arrow-right-from-bracket fs-4  me-1  "> </i><span class="txt-pop">LogOut</span></a>
+
+          </li>
+        </ul>
+
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
  

@@ -18,50 +18,55 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar position-relative posit navbar-expand-lg bg-primary">
+ <nav class="navbar position-relative posit navbar-expand-lg "
+    style="background: linear-gradient(135deg, #A100FF, #F200FF);;">
     <div class="container-fluid">
-      <a class="navbar-brand ms-1" href="#"><i class="fa-solid fa-eye  fs-4 " style="color: white;"></i> <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span></a>
+      <a class="navbar-brand ms-1 fs-4" href="#"><i class="fa-solid fa-eye fa-spin  fs-4 " style="color: white;"></i> <span
+          class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav  mb-2 mb-lg-0">
 
           <li class="nav-item ms-2">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-home fs-4 me-2"></i>Home</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-home fs-4 me-2"></i><span class="txt-pop fs-5">Home</span></a>
           </li>
-          <li class="nav-item ms-2">
-            <a class="nav-link active" aria-current="page" href="#">About Us</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              More
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">About Us</a></li>
-              <li><a class="dropdown-item" href="#">Visit Our Products</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-            </ul>
-          </li>
-          <form class="d-flex ms-5" role="search">
-
-            <input class="form-control srch-width rounded-pill me-2" type="search" placeholder="      Search"
-              aria-label="Search" />
-            <i class="fa-solid fa-search isrch "> </i>
-          </form>
           <li class="nav-item text-end ">
-           <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell fs-4 mt-1 pe-2 "> </i><span class="badge bg-danger position-absolute start-65 transform-translate">6</span>Notifications </a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell fs-4  pe-2 ms-2">
+              </i><span class="badge fs-7 bg-danger badg position-absolute ">6</span> <span
+                class="ms-2 txt-pop fs-5">Notifications</span> </a>
+
+          </li>
+
+
+
+         
+          <li class="nav-item ms-2">
+            <a class="nav-link active" aria-current="page" href="#"><i
+                class="fa-solid fa-address-card fs-4 me-2"></i><span class="txt-pop fs-5">About Us</span></a>
+          </li>
+
+
+          <li class="nav-item ms-2">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-headset fs-4 me-2"></i>
+              <span class="txt-pop fs-5">Contact Us</span></a>
+          </li>
            
-        </li>
-         <li class="nav-item ms-auto">
-           <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-arrow-right-from-bracket fs-4 mt-1 me-1  "> </i>LogOut</a>
-           
-        </li>
+        </ul>
+        <form class=" ms-3 d-flex " role="search">
+          <input class=" rounded-4 form-control me-2" type="search" placeholder="Search" style="max-height: 40px; width: 400px;" aria-label="Search"/>
+          <button class="rounded-4  bttn" style="height: 40px; max-width: 65px;" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#"><i
+                class="fa-solid fa-arrow-right-from-bracket fs-4  me-1  "> </i><span class="txt-pop fs-5">LogOut</span></a>
+
+          </li>
+          
         </ul>
 
       </div>
