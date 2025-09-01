@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribio Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 
+<body  style="background: url('./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg') center/cover no-repeat; min-height:115vh;opacity:30; max-height: 200vh;">
 
-<body>
-   <!-- navbar -->
-
-     <nav class="navbar position-relative posit navbar-expand-lg"
+  <!-- navbar -->
+  <nav class="navbar position-relative posit navbar-expand-lg"
      style="background: linear-gradient(135deg, #A100FF, #F200FF);">
   <div class="container-fluid">
     <a class="navbar-brand ms-1" href="#">
@@ -78,54 +80,55 @@
 </nav>
 
 
- 
+  <div class="container ">
+    <div class="row mx-auto mt-3 d-flex justify-content-center align-items-center vh-100">
+      <div class=" col py-5 mt-5 ps-4 rounded-4 add-profile-color "
+      style="opacity: 30;">
+    
+        <h2 class="text-center mb-5 fs-1 display-1 fw-bold ">Add New Profile</h2>
+        <form action="" class="fs-4">
+          <div>
 
-<!-- middle -->
-<div class="container-fluid " ></div>
-  
-    <div class=" pt-5 row opacity-30 " style="background: url('./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg') center/cover no-repeat; min-height:115vh; max-height: 200vh;">
-    <div class="col-lg-6 col-md-7 col-12 fs-1 display-1 lhs">
-          <p class="text-light lhs ms-5 fs-1" >See Further. Grow Faster.</p>
+            <label for="">Full Name</label>
 
-      <div class="vh-25 align-items-center d-flex justify-content-evenly" style="margin-top: 5%;">
-        
-        
-        <a class="btn  fs-1 px-4 px-5 pt-3  rounded-pill signup-login pb-3"  href="./sign-up.html">SignUp</a>
-        
-        <a class="px-4 btn fs-1 px-5 pt-3 rounded-pill pb-3 signup-login" href="./sign-in.html">Login</a>
-        
-        
+          </div>
+          <div>
+
+
+            <input type="text" class="fs- inp-w rounded-3 border mt-2 border-2 p-1" name="" id=""
+              placeholder=" Enter Your Name">
+          </div>
+          <div class="">
+
+
+            <label for="" class="mt-3 mb-2 ">Bio</label>
+            <br>
+            <textarea class="rounded-3" style="width: 90%;" name="" id="" rows="2"></textarea>
+          </div>
+          <div>
+            <div class="mt-2 mb-1">
+
+              <label for="">DOB</label>
+            </div>
+            <input  type="date" class="mb-3 mt-2 inp-w rounded-3 py-2 " name="" id="">
+            <div>
+
+
+              <label for="" class="mb-1">Location</label>
+            </div>
+
+            <input type="text" class="border border-2 rounded-3 p-1" style="width: 90%;" placeholder="Enter your location">
+            <div>
+
+              <label for="" class="mt-3 mb-2">Profile Picture</label>
+            </div>
+            <input type="file" accept="img/*">
+
+        </form>
       </div>
-      </div>
-    <div class="col-lg-6 col-md-5 col-12 fs-1">
-      
- <div class="vh-100 d-flex align-items-center justify-content-evenly">
-
-      <i class="fa-solid fa-eye fa-10x ic text-light "></i>
-
     </div>
   </div>
-  <hr class="mt-4">
-
-<div class="container-fluid border-4 p-4 mt-4  ">
-  <div class="text-center" >
-
-    <span class="fs-4 ">© 2025 Tribio. All rights reserved.</span>
-  </div>
-</div>
-</div>
-
-</div>
-<!-- footer -->
-
-
-
-
- 
-    
-
-
-
 
 </body>
+
 </html>

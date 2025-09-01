@@ -18,60 +18,68 @@
 
 <body>
   <!-- navbar -->
- <nav class="navbar position-relative posit navbar-expand-lg "
-    style="background: linear-gradient(135deg, #A100FF, #F200FF);;">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-1 fs-4" href="#"><i class="fa-solid fa-eye fa-spin  fs-4 " style="color: white;"></i> <span
-          class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+ <nav class="navbar position-relative posit navbar-expand-lg"
+     style="background: linear-gradient(135deg, #A100FF, #F200FF);">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-1" href="#">
+      <i class="fa-solid fa-eye fa-spin fs-4" style="color: white;"></i> 
+      <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left Nav Links -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item ms-2">
+          <a class="nav-link active" href="#">
+            <i class="fa-solid fa-home fs-4 me-2"></i>
+            <span class="txt-pop">Home</span>
+          </a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class="nav-link active" href="#">
+            <i class="fa-solid fa-bell fs-4 pe-2 ms-2"></i>
+            <span class="badge rounded-4 fs-7 bg-danger badg position-absolute">6</span>
+            <span class="ms-2 txt-pop">Notifications</span>
+          </a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class="nav-link active" href="#">
+            <i class="fa-solid fa-address-card fs-4 me-2"></i>
+            <span class="txt-pop">About Us</span>
+          </a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class="nav-link active" href="#">
+            <i class="fa-solid fa-headset fs-4 me-2"></i>
+            <span class="txt-pop">Contact Us</span>
+          </a>
+        </li>
+      </ul>
 
-          <li class="nav-item ms-2">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-home fs-4 me-2"></i><span class="txt-pop fs-5">Home</span></a>
-          </li>
-          <li class="nav-item text-end ">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell fs-4  pe-2 ms-2">
-              </i><span class="badge fs-7 bg-danger badg position-absolute ">6</span> <span
-                class="ms-2 txt-pop fs-5">Notifications</span> </a>
+      <!-- Search bar (separate from ul) -->
+      <form class="d-flex mx-lg-3 flex-grow-1" role="search">
+        <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-light rounded-pill" type="submit">
+          <i class="fa-solid fa-search"></i>
+        </button>
+      </form>
 
-          </li>
-
-
-
-         
-          <li class="nav-item ms-2">
-            <a class="nav-link active" aria-current="page" href="#"><i
-                class="fa-solid fa-address-card fs-4 me-2"></i><span class="txt-pop fs-5">About Us</span></a>
-          </li>
-
-
-          <li class="nav-item ms-2">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-headset fs-4 me-2"></i>
-              <span class="txt-pop fs-5">Contact Us</span></a>
-          </li>
-           
-        </ul>
-        <form class=" ms-3 d-flex " role="search">
-          <input class=" rounded-4 form-control me-2" type="search" placeholder="Search" style="max-height: 40px; width: 400px;" aria-label="Search"/>
-          <button class="rounded-4  bttn" style="height: 40px; max-width: 65px;" type="submit">Search</button>
-        </form>
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="#"><i
-                class="fa-solid fa-arrow-right-from-bracket fs-4  me-1  "> </i><span class="txt-pop fs-5">LogOut</span></a>
-
-          </li>
-          
-        </ul>
-
-      </div>
+      <!-- Right Nav (Logout) -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">
+            <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
+            <span class="txt-pop">LogOut</span>
+          </a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- end navbar -->
 

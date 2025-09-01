@@ -183,3 +183,14 @@ background-color: black;
     transform: scale(1.07);
 }
 
+.add-profile-color{
+    background-color: transparent;
+   color: white;
+    transition: transform 0.1s ease-in-out;
+    border:1px solid white
+}
+.add-profile-color:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.02);
+}
