@@ -132,6 +132,17 @@ hr {
     width: 90%;
 
 }
+.add-new-acc{
+    transition: transform 0.1s ease-in-out;
+    width: 50%;
+    margin-left: -1.4%;
+
+}
+.add-new-acc:hover{
+    transform: scale(1.03);
+    background: linear-gradient(135deg, #A100FF, #F200FF);
+    color: white;
+}
 
 
 /*post-list  */

@@ -1,170 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Details</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body>
-    <nav class="navbar position-relative posit navbar-expand-lg"
-     style="background: linear-gradient(135deg, #A100FF, #F200FF);">
-  <div class="container-fluid">
-    <a class="navbar-brand ms-1" href="#">
-      <i class="fa-solid fa-eye fa-spin fs-4" style="color: white;"></i> 
-      <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar position-relative posit navbar-expand-lg"
+    style="background: linear-gradient(135deg, #A100FF, #F200FF);">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-1" href="#">
+        <i class="fa-solid fa-eye fa-spin fs-4" style="color: white;"></i>
+        <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Left Nav Links -->
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-home fs-4 me-2"></i>
-            <span class="txt-pop">Home</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-bell fs-4 pe-2 ms-2"></i>
-            <span class="badge rounded-4 fs-7 bg-danger badg position-absolute">6</span>
-            <span class="ms-2 txt-pop">Notifications</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-address-card fs-4 me-2"></i>
-            <span class="txt-pop">About Us</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-headset fs-4 me-2"></i>
-            <span class="txt-pop">Contact Us</span>
-          </a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left Nav Links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-home fs-4 me-2"></i>
+              <span class="txt-pop">Home</span>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-bell fs-4 pe-2 ms-2"></i>
+              <span class="badge rounded-4 fs-7 bg-danger badg position-absolute">6</span>
+              <span class="ms-2 txt-pop">Notifications</span>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-address-card fs-4 me-2"></i>
+              <span class="txt-pop">About Us</span>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-headset fs-4 me-2"></i>
+              <span class="txt-pop">Contact Us</span>
+            </a>
+          </li>
+        </ul>
 
-      <!-- Search bar (separate from ul) -->
-      <form class="d-flex mx-lg-3 flex-grow-1" role="search">
-        <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light rounded-pill" type="submit">
-          <i class="fa-solid fa-search"></i>
-        </button>
-      </form>
+        <!-- Search bar (separate from ul) -->
+        <form class="d-flex mx-lg-3 flex-grow-1" role="search">
+          <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light rounded-pill" type="submit">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </form>
 
-      <!-- Right Nav (Logout) -->
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
-            <span class="txt-pop">LogOut</span>
-          </a>
-        </li>
-      </ul>
+        <!-- Right Nav (Logout) -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
+              <span class="txt-pop">LogOut</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!-- end nav bar -->
 
 
   <!-- middle section -->
-<div class="container mt-5 d-flex justify-content-center align-items-center vh-50">
+  <div class="container mt-5 d-flex justify-content-center align-items-center vh-50">
 
 
-  <div class="row  text-center">
-    <div class="col-lg-7 col-md-10 col-12 border border-2 rounded-3 shadow  w-100  ">
-        <img class=" mt-4 img-fluid w-25 rounded-circle" src="https://img.freepik.com/premium-photo/happy-man-ai-generated-portrait-user-profile_1119669-1.jpg?w=2000" style=" background-image: url('./imgs/pexels-peter-olexa-2214257-4012966.jpg');
+    <div class="row  text-center">
+      <div class="col-lg-7 col-md-10 col-12 border border-2 rounded-3 shadow  w-100  ">
+        <img class=" mt-4 img-fluid w-25 rounded-circle"
+          src="https://img.freepik.com/premium-photo/happy-man-ai-generated-portrait-user-profile_1119669-1.jpg?w=2000"
+          style=" background-image: url('./imgs/pexels-peter-olexa-2214257-4012966.jpg');
     background-size: cover;       /* scale image to always cover */
     background-position: center;  /* keep image centered */
     background-repeat: no-repeat; /* prevent tiling */
                 /* make body full height */
     margin: 0;   " alt="">
-        <div class="mt-2">
+        <div class="mt-2  mx-auto">
 
-            <p class="fs-2">Red John</p>
+          <span class="fs-2 ms-4 text-center">Red John </span>
+          <i class="fa-solid fs-4 fa-pencil"></i>
         </div>
         <p class="fs-4 ">@dr_joe_nh</p>
         <div>
-            <p class="fs-4"> Intern @ Luminar | Aspiring Software Developer | Python | HTML | CSS | Bootstrap </p>
+          <p class="fs-4"> Intern @ Luminar | Aspiring Software Developer | Python | HTML | CSS | Bootstrap </p>
         </div>
 
 
         <div class="mt-3 pt-3 d-flex justify-content-evenly">
-          <span class="fs-5"> <strong>12</strong> Posts</span> 
-          <span class="fs-5"> <strong>103</strong> Followers</span> 
-          <span class="fs-5"> <strong>459</strong> Connections</span> 
-         
+          <span class="fs-5"> <strong>12</strong> Posts</span>
+          <span class="fs-5 ps-5"> <strong>103</strong> Followers</span>
+          <span class="fs-5"> <strong>459</strong> Connections</span>
+
         </div>
+        <div class="fs-3 mt-4 justify-content-center  d-flex">
+          <button type="button" class="me-2 p-2 rounded-pill text-center w-100 blknwhite"><span class="ms-5">Edit Profile</span></button>
+          <button type="button" class="p-2 rounded-3 text-center blknwhite"><i class="fa-solid fa-ellipsis"></i></button>
+        </div>
+
+
+
         <hr class="w-100">
         <div class="mt-4 p-3  ">
-            <h3>About</h3>
-            <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quam a dolor quibusdam non deleniti voluptates dicta reprehenderit. Odit enim quaerat corrupti tempora earum similique voluptates ipsam aut praesentium minus?</p>
-            
-            <p class="fs-5 pt-3 text-start"><strong>Email:</strong> drjoenh2007@gmail.com</p>
-            <p class="fs-5 text-start"><strong>Joined:</strong> December 2023</p>
-            <p class="fs-5 text-start"><strong>Location:</strong> San Francisco, USA</p>
-            <hr class="w-100 mt-5">
+          <h3 class="fs-1"> About</h3>
+          <p class="fs-4 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quam a dolor quibusdam
+            non deleniti voluptates dicta reprehenderit. Odit enim quaerat corrupti tempora earum similique voluptates
+            ipsam aut praesentium minus?</p>
+
+          <p class="fs-5 pt-3 text-start"><strong>Email:</strong> drjoenh2007@gmail.com</p>
+          <p class="fs-5 text-start"><strong>Joined:</strong> December 2023</p>
+          <p class="fs-5 text-start"><strong>Location:</strong> San Francisco, USA</p>
+          <hr class="w-100 mt-5">
 
 
         </div>
-    
-    
-    
-    
-<h3 class="text-start mt-3 py-2">Posts</h3>
 
-<div class="card pb-3">
-  <img src="./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg" class="card-img-top  " style="
+
+
+
+        <h3 class="text-start mt-3 py-2">Posts</h3>
+
+        <div class="card pb-3">
+          <img src="./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg" class="card-img-top  " style="
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;
     height: 100vh;                
     margin: 0;   " alt="...">
-  <div class="card-body">
-     <p class="text-start card-text fs-5">Glad to post my first work in the field of web dev....</p>
+          <div class="card-body">
+            <p class="text-start card-text fs-5">Glad to post my first work in the field of web dev....</p>
+          </div>
+          <hr class="w-100">
+          <div class="d-flex fs-3 justify-content-evenly">
+
+            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-thumbs-up "></i>Like</a>
+            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-message"></i>Comment</a>
+            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-share"></i>Share</a>
+          </div>
+
+
+        </div>
+
+        <div class="mt-5 card">
+          <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg" class="card-img-top  "
+            style="height: 750px;" alt="...">
+          <div class="card-body">
+            <p class="text-start card-text fs-5">Its been 2months since i have been indulged in the world of web dev... </p>
+          </div>
+          <hr class="w-100">
+          <div class="d-flex fs-3 justify-content-evenly">
+
+            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-thumbs-up "></i>Like</a>
+            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-message"></i>Comment</a>
+            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-share"></i>Share</a>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
     </div>
-    <hr class="w-100">
-<div class="d-flex fs-3 justify-content-evenly">
-
-    <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-thumbs-up "></i>Like</a>
-    <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-message"></i>Comment</a>
-    <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-share"></i>Share</a>
-</div>
-
-
-</div>
-
-<div class="mt-5 card">
-  <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg" class="card-img-top  " style="height: 750px;" alt="...">
-  <div class="card-body">
-     <p class="text-start card-text fs-5">Glad to post my first work in the field of web dev....</p>
-    </div>
-    <hr class="w-100">
-<div class="d-flex fs-3 justify-content-evenly">
-
-    <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-thumbs-up "></i>Like</a>
-    <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-message"></i>Comment</a>
-    <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-share"></i>Share</a>
-</div>
-
-
-</div>
-
-
-
   </div>
-</div>
-</div>
 
 
 </body>
+
 </html>
