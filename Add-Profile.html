@@ -29,7 +29,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Left Nav Links -->
+     
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item ms-2">
           <a class="nav-link active" href="#">
@@ -46,19 +46,18 @@
         </li>
         <li class="nav-item ms-2">
           <a class="nav-link active" href="#">
-            <i class="fa-solid fa-address-card fs-4 me-2"></i>
-            <span class="txt-pop">About Us</span>
+            <i class="fa-solid fa-user fs-4 me-2"></i>
+            <span class="txt-pop">Profile</span>
           </a>
         </li>
         <li class="nav-item ms-2">
           <a class="nav-link active" href="#">
-            <i class="fa-solid fa-headset fs-4 me-2"></i>
-            <span class="txt-pop">Contact Us</span>
+            <i class="fa-solid fa-users fs-4 me-2"></i>
+            <span class="txt-pop">Your Network</span>
           </a>
         </li>
       </ul>
 
-      <!-- Search bar (separate from ul) -->
       <form class="d-flex mx-lg-3 flex-grow-1" role="search">
         <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-light rounded-pill" type="submit">
@@ -66,8 +65,7 @@
         </button>
       </form>
 
-      <!-- Right Nav (Logout) -->
-      <ul class="navbar-nav ms-auto">
+       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link active" href="#">
             <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
@@ -81,12 +79,16 @@
 
 
   <div class="container ">
-    <div class="row mx-auto mt-3 d-flex justify-content-center align-items-center vh-100">
-      <div class=" col py-5 mt-5 ps-4 rounded-4 add-profile-color "
-      style="opacity: 30;">
+    <div class="row mx-auto mt-3 d-flex justify-content-center align-items-center vh-50">
+      <div class=" col-lg-5 col-md-10 col-12 py-3 mt-5 ps-4 rounded-4 add-profile-color "
+      style="opacity: 30; ">
     
-        <h2 class="text-center mb-5 fs-1 display-1 fw-bold ">Edit Profile</h2>
+        <h2 class="text-center mb-3 fs-2 fw-bold ">Edit Profile</h2>
         <form action="" class="fs-4">
+            <div class="text-center">
+
+              <a href="">  <i class="fa-solid xxx fa-user display-1  rounded-circle   text-light"></i></a>
+              </div>
           <div>
 
             <label for="">Full Name</label>
@@ -95,13 +97,13 @@
           <div>
 
 
-            <input type="text" class="fs- inp-w rounded-3 border mt-2 border-2 p-2" name="" id=""
+            <input type="text" class="fs- inp-w rounded-3 border mt-2 border-2 p-1" name="" id=""
               placeholder=" Enter Your Name">
           </div>
           <div class="">
 
 
-            <label for="" class="mt-3 mb-2 ">Bio</label>
+            <label for="" class="mt-2 mb-2 ">Bio</label>
             <br>
             <textarea class="rounded-3" style="width: 90%;" name="" id="" rows="2"></textarea>
           </div>
@@ -110,22 +112,20 @@
 
               <label for="">DOB</label>
             </div>
-            <input  type="date" class="px-2 mb-3 mt-2 inp-w rounded-3 p-2 " name="" id="">
+            <input  type="date" class="px-1 mb-2 mt-1 inp-w rounded-3 p-2 " name="" id="">
             <div>
 
 
               <label for="" class="mb-1">Location</label>
             </div>
 
-            <input type="text" class="border border-2 rounded-3 p-2" style="width: 90%;" placeholder="Enter your location">
-            <div>
+            <input type="text" class="border border-2 rounded-3 p-1" style="width: 90%;" placeholder=" Enter your location">
+            
+            
+              <div class="text-center">
 
-              <label for="" class="mt-3 mb-2">Profile Picture</label>
-            </div>
-            <input type="file" accept="img/*">
-            <div class="text-center ">
-
-              <button type="submit" class="  rounded-4 mt-5 pt-2 p-2 pb-3  add-new-acc "><span class="fs-3 ">Add a new Account</span></button>
+                <button type="submit" class="   rounded-4 mt-5 pt-2 p-1 pb-2  add-new-acc "><span class="fs-3 ">Save</span></button>
+              </div>
             </div>
         </form>
       </div>

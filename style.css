@@ -107,6 +107,14 @@ hr {
     margin-top: 10%;
 
 }
+.ic-pop{
+    transition: transform 0.1s ease-in-out;
+
+}
+
+.ic-pop:hover{
+    transform: scale(1.1);
+}
 .srch{
     transition: transform ease-in-out 0.1s;
     color: black;
@@ -117,14 +125,7 @@ hr {
     color: white;
 }
 
-.ic{
-    transition: transform 0.1s ease-in-out;
-}
 
-.ic:hover{
-    transform: scale(1.1);
-   
-}
 
 /* add-profile */
 
@@ -135,7 +136,8 @@ hr {
 .add-new-acc{
     transition: transform 0.1s ease-in-out;
     width: 50%;
-    margin-left: -1.4%;
+    margin-left: -5.4%;
+    border: transparent;
 
 }
 .add-new-acc:hover{
@@ -161,6 +163,7 @@ hr {
 .post-profile-pic{
     width: 6%;
     height: 45px;
+    
 }
 .blknwhite{
     transition: transform 0.1s ease-in-out;
@@ -204,4 +207,37 @@ background-color: black;
     background-color: black;
     color: white;
     transform: scale(1.02);
+}
+
+.edit-profile{
+    
+    border: 1px solid black;
+    color: black;
+
+}
+.edit-profile:hover{
+    border-color: white;
+}
+@media (min-width: 992px) {
+  .sidebar-box {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+  }
+}
+
+.xxx{
+    
+    border: 1px solid white;
+   width: 20%;
+   height: 100px;
+   padding-top: 7px;
+    
+    transition: transform 0.1s ease-in-out;
+
+    
+}
+.xxx:hover{
+    transform: scale(1.1);
+   
 }
