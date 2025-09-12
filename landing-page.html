@@ -1,137 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribio Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribio Home</title>
+  <link rel="stylesheet" href="./style.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  
 </head>
 
-
-<body>
-   <!-- navbar -->
-
-     <nav class="navbar position-relative posit navbar-expand-lg"
-     style="background: linear-gradient(135deg, #A100FF, #F200FF);">
-  <div class="container-fluid">
-    <a class="navbar-brand ms-1" href="#">
-      <i class="fa-solid fa-eye fa-spin fs-4" style="color: white;"></i> 
-      <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<body class="body1">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:rgb(223, 221, 221);">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3" href="#" style="font-family: 'Times New Roman'; color: black;">
+        Tribio
+      </a>
      
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-home fs-4 me-2"></i>
-            <span class="txt-pop">Home</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-bell fs-4 pe-2 ms-2"></i>
-            <span class="badge rounded-4 fs-7 bg-danger badg position-absolute">6</span>
-            <span class="ms-2 txt-pop">Notifications</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-user fs-4 me-2"></i>
-            <span class="txt-pop">Profile</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-users fs-4 me-2"></i>
-            <span class="txt-pop">Your Network</span>
-          </a>
-        </li>
-      </ul>
+  </nav>
 
-      <form class="d-flex mx-lg-3 flex-grow-1" role="search">
-        <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light rounded-pill" type="submit">
-          <i class="fa-solid fa-search"></i>
-        </button>
-      </form>
-
-       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
-            <span class="txt-pop">LogOut</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
- 
-
-<!-- middle -->
-<div class="container-fluid " ></div>
   
-    <div class=" pt-5 row opacity-30 " style="background: url('./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg') center/cover no-repeat; min-height:115vh; max-height: 200vh;">
-    <div class="col-lg-6 col-md-7 col-12 fs-1 display-1 lhs">
-          <p class="text-light lhs ms-5 fs-1" >See Further. Grow Faster.</p>
-
-      <div class="vh-25 align-items-center d-flex justify-content-evenly" style="margin-top: 5%;">
-        
-        
-        <a class="btn  fs-1 px-4 px-5 pt-3  rounded-pill signup-login pb-3"  href="./sign-up.html">SignUp</a>
-        
-        <a class="px-4 btn fs-1 px-5 pt-3 rounded-pill pb-3 signup-login" href="./sign-in.html">Login</a>
-        
-        
-      </div>
-      </div>
-    <div class="col-lg-6 col-md-5 col-12 fs-1">
+  <div class="container-fluid py-4">
+    <div class="row align-items-center justify-content-center">
       
- <div class="vh-100 d-flex align-items-center justify-content-evenly">
+      
+      <div class="col-lg-5 col-md-7 text-center mb-4">
+        <h1 class="tribio-title">Tribio</h1>
+        <p class="tribio-tagline">See Further. Grow Faster.</p>
+        
+        <div>
+          <a class="btn btn-dark rounded-pill fs-4 pop me-3" href="./sign-up.html">Sign Up</a>
+          <a class="btn btn-outline-dark rounded-pill fs-4 signup-login2" href="./sign-in.html">Login</a>
+        </div>
+      </div>
 
-      <i class="fa-solid fa-eye fa-10x ic-pop text-light "></i>
-
+      <div class="col-lg-6 col-md-5 text-center">
+        <img src="./imgs/image copy.png" alt="Tribio illustration" class="hero-img img-fluid">
+      </div>
     </div>
   </div>
-  <div class="container">
 
-    
-    <p class="text-light mt-3 fs-3 p-4">
-      Tribio helps you connect with like-minded people, share your journey,  
-      and discover opportunities that take you further.
-    </p>
+  <div class="container-fluid footer border-top">
+
+  
+    <p>© 2025 Tribio. All Rights Reserved.</p>
+    <div>
+      <a href="#" class="text-muted me-3"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="text-muted me-3"><i class="fab fa-x-twitter"></i></a>
+      <a href="#" class="text-muted"><i class="fab fa-linkedin"></i></a>
+    </div>
   </div>
-  <hr class="mt-4">
-
-<div class="container-fluid border-4 p-4 mt-4  ">
-  <div class="text-center" >
-
-    <span class="fs-4 ">© 2025 Tribio. All rights reserved.</span>
-  </div>
-</div>
-</div>
-
-</div>
-<!-- footer -->
-
-
-
-
- 
-    
-
-
-
-
 </body>
 </html>

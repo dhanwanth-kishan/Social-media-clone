@@ -15,76 +15,71 @@
 </head>
 
 <body>
-  <nav class="navbar position-relative posit navbar-expand-lg"
-     style="background: linear-gradient(135deg, #A100FF, #F200FF);">
-  <div class="container-fluid">
-    <a class="navbar-brand ms-1" href="#">
-      <i class="fa-solid fa-eye fa-spin fs-4" style="color: white;"></i> 
-      <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:rgb(223, 221, 221);">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3" href="#" style="font-family: 'Times New Roman'; color: black;">
+        Tribio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-home fs-4 me-2"></i>
-            <span class="txt-pop">Home</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-bell fs-4 pe-2 ms-2"></i>
-            <span class="badge rounded-4 fs-7 bg-danger badg position-absolute">6</span>
-            <span class="ms-2 txt-pop">Notifications</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-user fs-4 me-2"></i>
-            <span class="txt-pop">Profile</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-users fs-4 me-2"></i>
-            <span class="txt-pop">Your Network</span>
-          </a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex  flex-grow-1" role="search">
+          <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search" style="width: 250px; margin-left: 47%;">
+          <button class="btn btn-light rounded-pill" type="submit">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </form>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-home fs-5 me-2"></i> 
+            </a>
+          </li>
+          <li class="nav-item ms-2 position-relative">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-bell fs-5 me-3 ps-2"></i>
+              <span class="badge  bg-danger rounded-pill position-absolute six    ">6</span>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-user fs-5 me-2"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-users fs-5 me-2"></i> 
+            </a>
+          </li>
+        </ul>
 
-      <form class="d-flex mx-lg-3 flex-grow-1" role="search">
-        <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light rounded-pill" type="submit">
-          <i class="fa-solid fa-search"></i>
-        </button>
-      </form>
+        
+        
 
-       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
-            <span class="txt-pop">LogOut</span>
-          </a>
-        </li>
-      </ul>
+      
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket fs-5 me-1"></i> 
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!-- end nav bar -->
 
 
-  <!-- middle section -->
   <div class="container mt-5 d-flex justify-content-center align-items-center vh-50">
 
 
-    <div class="row  text-center">
-      <div class="col-lg-7 col-md-10 col-12 border border-2 rounded-3 shadow  w-100  ">
+    <div class="row  text-center d-flex justify-content-center">
+      <div class="col-lg-5 col-md-10 col-12 border border-2 rounded-4 shadow  w-75 pb-5  ">
         <img class=" mt-4 img-fluid w-25 rounded-circle"
           src="https://img.freepik.com/premium-photo/happy-man-ai-generated-portrait-user-profile_1119669-1.jpg?w=2000"
           style=" background-image: url('./imgs/pexels-peter-olexa-2214257-4012966.jpg');
@@ -92,8 +87,8 @@
     margin: 0;   " alt="">
         <div class="mt-2  mx-auto">
 
-          <span class="fs-2 ms-4 text-center">Red John </span>
-          <i class="fa-solid fs-4 fa-pencil"></i>
+          <span class="fs-2 ms-1 text-center">Red John </span>
+          
         </div>
         <p class="fs-4 ">@dr_joe_nh</p>
         <div>
@@ -111,28 +106,31 @@
           <a href="./Add-Profile.html" class="blknwhite  me-2 p-2 edit-profile rounded-pill text-center w-100" style="text-decoration: none; ; ">Edit Profile</a>
    <button type="button" class="p-2 rounded-3 text-center blknwhite"><i class="fa-solid fa-ellipsis"></i></button>
         </div>
+      </div>
 
 
-
-        <hr class="w-100">
-        <div class="mt-4 p-3  ">
+<div class="col-lg-4 col-md-10 col-12 border border-2 rounded-4 shadow mt-5  w-75  ">
+       
+        
+        <div class="mt-2 p-3  ">
           <h3 class="fs-1"> About</h3>
-          <p class="fs-4 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quam a dolor quibusdam
-            non deleniti voluptates dicta reprehenderit. Odit enim quaerat corrupti tempora earum similique voluptates
-            ipsam aut praesentium minus?</p>
+          <p class="fs-4 mt-4">Hello! I am Red John, a B.Tech Computer Science Engineering graduate (2025). I enjoy solving problems, building web applications, and learning new technologies. Passionate about software development and always eager to explore opportunities where I can contribute and grow.</p>
 
           <p class="fs-5 pt-3 text-start"><strong>Email:</strong> drjoenh2007@gmail.com</p>
           <p class="fs-5 text-start"><strong>Joined:</strong> December 2023</p>
           <p class="fs-5 text-start"><strong>Location:</strong> San Francisco, USA</p>
-          <hr class="w-100 mt-5">
-
+          
+        </div>
 
         </div>
 
+<div class="col-lg-7 col-md-10 col-12 border border-2 rounded-4 shadow mt-5  w-75 pb-5
+ ">
+       
 
 
-
-        <h3 class="text-start mt-3 py-2"> <u>Your Posts</u> </h3>
+        <h3 class="text-center mt-3 pt-2 pb-4"> Your Posts </h3>
+         
 
         <div class="card pb-3">
           <img src="./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg" class="card-img-top  " style="
@@ -140,7 +138,7 @@
     background-position: center;  
     background-repeat: no-repeat;
     height: 100vh;                
-    margin: 0;   " alt="...">
+    margin: 0; max-height: 900px;  " alt="...">
           <div class="card-body">
             <p class="text-start card-text fs-5">Glad to post my first work in the field of web dev....</p>
           </div>
@@ -157,7 +155,7 @@
 
         <div class="mt-5 card">
           <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg" class="card-img-top  "
-            style="height: 750px;" alt="...">
+            style="max-height: 850px;" alt="...">
           <div class="card-body">
             <p class="text-start card-text fs-5">Its been 2months since i have been indulged in the world of web dev... </p>
           </div>

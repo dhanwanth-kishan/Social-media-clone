@@ -5,133 +5,120 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edit Profile</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-
 </head>
 
-<body  style="background: url('./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg') center/cover no-repeat; min-height:115vh;opacity:30; max-height: 200vh;">
+<body class="bg-light">
 
-  <!-- navbar -->
-  <nav class="navbar position-relative posit navbar-expand-lg"
-     style="background: linear-gradient(135deg, #A100FF, #F200FF);">
-  <div class="container-fluid">
-    <a class="navbar-brand ms-1" href="#">
-      <i class="fa-solid fa-eye fa-spin fs-4" style="color: white;"></i> 
-      <span class="ms-1" style="font-family: sans-serif; color: white;">Tribio</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:rgb(223, 221, 221);">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3" href="#" style="font-family: 'Times New Roman'; color: black;">
+        Tribio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-home fs-4 me-2"></i>
-            <span class="txt-pop">Home</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-bell fs-4 pe-2 ms-2"></i>
-            <span class="badge rounded-4 fs-7 bg-danger badg position-absolute">6</span>
-            <span class="ms-2 txt-pop">Notifications</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-user fs-4 me-2"></i>
-            <span class="txt-pop">Profile</span>
-          </a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-users fs-4 me-2"></i>
-            <span class="txt-pop">Your Network</span>
-          </a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex  flex-grow-1" role="search">
+          
+        </form>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-home fs-5 me-2"></i> 
+            </a>
+          </li>
+          <li class="nav-item ms-2 position-relative">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-bell fs-5 me-3 ps-2"></i>
+              <span class="badge  bg-danger rounded-pill position-absolute six    ">6</span>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-user fs-5 me-2"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-users fs-5 me-2"></i> 
+            </a>
+          </li>
+        </ul>
 
-      <form class="d-flex mx-lg-3 flex-grow-1" role="search">
-        <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light rounded-pill" type="submit">
-          <i class="fa-solid fa-search"></i>
-        </button>
-      </form>
+        
+        
 
-       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">
-            <i class="fa-solid fa-arrow-right-from-bracket fs-4 me-1"></i>
-            <span class="txt-pop">LogOut</span>
-          </a>
-        </li>
-      </ul>
+      
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket fs-5 me-1"></i> 
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-
-  <div class="container ">
-    <div class="row mx-auto mt-3 d-flex justify-content-center align-items-center vh-50">
-      <div class=" col-lg-5 col-md-10 col-12 py-3 mt-5 ps-4 rounded-4 add-profile-color "
-      style="opacity: 30; ">
-    
-        <h2 class="text-center mb-3 fs-2 fw-bold ">Edit Profile</h2>
-        <form action="" class="fs-4">
-            <div class="text-center">
-
-              <a href="">  <i class="fa-solid xxx fa-user display-1  rounded-circle   text-light"></i></a>
-              </div>
-          <div>
-
-            <label for="">Full Name</label>
-
+ 
+  <div class="container vh-50">
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-6 col-md-8 col-12 bg-white shadow  rounded-4 p-4">
+        <h2 class="text-center mb-4 fw-bold">Edit Profile</h2>
+        <form>
+          
+          <div class="text-center mb-3">
+            <a href="#">
+              <i class="fa-solid fa-user display-1 rounded-circle bg-secondary p-4 text-light"></i>
+            </a>
           </div>
-          <div>
 
-
-            <input type="text" class="fs- inp-w rounded-3 border mt-2 border-2 p-1" name="" id=""
-              placeholder=" Enter Your Name">
+          
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control rounded-3" placeholder="Enter Your Name">
           </div>
-          <div class="">
 
-
-            <label for="" class="mt-2 mb-1 ">Bio</label>
-            <br>
-            <textarea class="rounded-3" style="width: 90%;" name="" id="" rows="2"></textarea>
+         
+          <div class="mb-3">
+            <label class="form-label">Bio</label>
+            <textarea class="form-control rounded-3" rows="2" placeholder="Write something about yourself..."></textarea>
           </div>
+
+       
+          <div class="mb-3">
+            <label class="form-label">DOB</label>
+            <input type="date" class="form-control rounded-3">
+          </div>
+
+          
+          <div class="mb-4">
+            <label class="form-label">Location</label>
+            <input type="text" class="form-control rounded-3" placeholder="Enter your location">
+          </div>
+
           <div>
-            <div class="mt-1 mb-1">
-
-              <label for="">DOB</label>
+              <label for="">Profile Picture</label>
             </div>
-            <input  type="date" class="px-1 mb-2 mt-1 inp-w rounded-3 p-2 " name="" id="">
-            <div>
+              <input class="mt-2" type="file" accept="*/.jpg">
 
-
-              <label for="" class="mb-1">Location</label>
-            </div>
-
-            <input type="text" class="border border-2 rounded-3 p-1" style="width: 90%;" placeholder=" Enter your location">
-            
-            
-              <div class="text-center">
-
-                <button type="submit" class="   rounded-4 mt-5 pt-2 p-1 pb-2  add-new-acc "><span class="fs-3 ">Save</span></button>
-              </div>
-            </div>
+          
+          <div class="text-center">
+            <button type="submit" class="btn btn-dark rounded-pill px-5 mt-4 pop py-2 pb-2 fs-4 display-4">Save</button>
+          </div>
         </form>
       </div>
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -85,36 +85,36 @@ hr {
 
 .signup-login{
     text-decoration: none;
-    border: 1px solid white;
     transition: transform 0.1s ease-in-out;
     background-color: transparent;
-    border: 3px solid white;
-    color: white;
+    color: black;
     font-family: sans-serif;
     font-weight:lighter;
     margin-left: -25%;
-
+    border: 1px solid black;
+    
 }
 
 .signup-login:hover{
     transform:scale(1.1) ;
-    background: linear-gradient(135deg, #A100FF, #F200FF);
-    box-shadow: 5px 5px 10px rgb(154, 106, 154);
-    
+
+    background-color: black;
     color: white;
 }
 .lhs{
-    margin-top: 10%;
+    margin-top: 7%;
+   
+    color: black;
+    border-radius: 25px;
+    
 
 }
 .ic-pop{
-    transition: transform 0.1s ease-in-out;
+     margin-top: -25%;
 
 }
 
-.ic-pop:hover{
-    transform: scale(1.1);
-}
+
 .srch{
     transition: transform ease-in-out 0.1s;
     color: black;
@@ -226,18 +226,82 @@ background-color: black;
   }
 }
 
-.xxx{
-    
-    border: 1px solid white;
-   width: 20%;
-   height: 100px;
-   padding-top: 7px;
-    
-    transition: transform 0.1s ease-in-out;
+
+
+.pop{
+    transition: transform 0.2s ease-in-out;
+
+}
+.pop:hover{
+    transform: scale(1.1);
+    background: #000;
+}
+.six{
+    margin-left: -80%;
+}
+
+
+
+   
+    .body1 {
+      font-family: 'Times New Roman', serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
 
     
-}
-.xxx:hover{
-    transform: scale(1.1);
+    .navbar {
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
    
-}
+    .tribio-title {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+  
+    .tribio-tagline {
+      font-size: 1.5rem;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    
+    .signup-login2 {
+      font-size: 1.25rem;
+      padding: 0.6rem 1.8rem;
+    }
+
+    
+    .hero-img {
+      max-width: 420px;
+      border-radius: 20px;
+      margin-top: 10%;
+    }
+
+    
+    .footer {
+      background-color: #ffffff;
+      padding-top: 20px;
+      padding-bottom: 50px;    
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+    }
+
+    .signup{
+        transition: 0.3s ease-in ;
+
+    }
+
+    .signup:hover{
+        background-color: white;
+        
+    }
+
+    
+ 
