@@ -13,25 +13,24 @@
 <body class="bg-light">
 
   <!-- Navbar -->
- <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:rgb(223, 221, 221);">
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:#e0e3eb;">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold fs-3" href="#" style="font-family: 'Times New Roman'; color: black;">
+      <a class="navbar-brand fw-bold fs-3" href="./index.html" style="font-family: 'Times New Roman'; color: black;">
         Tribio
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="d-flex  flex-grow-1" role="search">
-          
+
         </form>
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item ms-2">
             <a class="nav-link active" href="#">
-              <i class="fa-solid fa-home fs-5 me-2"></i> 
+              <i class="fa-solid fa-home fs-5 me-2"></i>
             </a>
           </li>
           <li class="nav-item ms-2 position-relative">
@@ -47,19 +46,19 @@
           </li>
           <li class="nav-item ms-2">
             <a class="nav-link active" href="#">
-              <i class="fa-solid fa-users fs-5 me-2"></i> 
+              <i class="fa-solid fa-users fs-5 me-2"></i>
             </a>
           </li>
         </ul>
 
-        
-        
 
-      
+
+
+
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <i class="fa-solid fa-arrow-right-from-bracket fs-5 me-1"></i> 
+              <i class="fa-solid fa-arrow-right-from-bracket fs-5 me-1"></i>
             </a>
           </li>
         </ul>
@@ -67,56 +66,64 @@
     </div>
   </nav>
 
- 
-  <div class="container vh-50">
-    <div class="row justify-content-center mt-5">
-      <div class="col-lg-6 col-md-8 col-12 bg-white shadow  rounded-4 p-4">
-        <h2 class="text-center mb-4 fw-bold">Edit Profile</h2>
-        <form>
-          
-          <div class="text-center mb-3">
-            <a href="#">
-              <i class="fa-solid fa-user display-1 rounded-circle bg-secondary p-4 text-light"></i>
-            </a>
-          </div>
 
-          
-          <div class="mb-3">
-            <label class="form-label">Full Name</label>
-            <input type="text" class="form-control rounded-3" placeholder="Enter Your Name">
-          </div>
+  <div class="container vh-100">
+  <div class="row justify-content-center mt-4">
+    <div class="col-lg-5 col-md-8 col-12 bg-white shadow rounded-4 p-4">
+      <h2 class="text-center mb-4 fw-bold">Edit Profile</h2>
+      <form>
 
-         
-          <div class="mb-3">
-            <label class="form-label">Bio</label>
-            <textarea class="form-control rounded-3" rows="2" placeholder="Write something about yourself..."></textarea>
-          </div>
+        <!-- Profile Picture -->
+        <div class="text-center mb-3">
+          <a href="#">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg"
+              class="rounded-circle border p-1"
+              style="width:120px; height:120px; object-fit:cover;">
+          </a>
+          <div class="mt-2">
+            <label class="form-label fw-semibold">Change Profile Picture</label>
+           </div>
+        </div>
 
-       
-          <div class="mb-3">
-            <label class="form-label">DOB</label>
-            <input type="date" class="form-control rounded-3">
-          </div>
+        
+        <div class="mb-3">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control rounded-3"
+            value="Red John">
+        </div>
 
-          
-          <div class="mb-4">
-            <label class="form-label">Location</label>
-            <input type="text" class="form-control rounded-3" placeholder="Enter your location">
-          </div>
+      
+        <div class="mb-3">
+          <label class="form-label">Bio</label>
+          <textarea class="form-control rounded-3" rows="2">Aspiring Software Engineer | Python | Java | CPP</textarea>
+        </div>
 
-          <div>
-              <label for="">Profile Picture</label>
-            </div>
-              <input class="mt-2" type="file" accept="*/.jpg">
+        <div class="mb-3">
+          <label class="form-label">DOB</label>
+          <input type="date" class="form-control rounded-3"
+            value="2003-05-20">
+        </div>
 
-          
-          <div class="text-center">
-            <button type="submit" class="btn btn-dark rounded-pill px-5 mt-4 pop py-2 pb-2 fs-4 display-4">Save</button>
-          </div>
-        </form>
-      </div>
+        
+        <div class="mb-4">
+          <label class="form-label">Location</label>
+          <input type="text" class="form-control rounded-3"
+            value="San Francisco, USA">
+        </div>
+
+      
+        <div class="text-center">
+          <button type="submit"
+            class="btn btn-dark rounded-pill px-5 mt-4 pop py-2 fs-5">
+            Save
+          </button>
+        </div>
+
+      </form>
     </div>
   </div>
+</div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

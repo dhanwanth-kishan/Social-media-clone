@@ -1,65 +1,66 @@
 /* sign-in-pg-css */
 
 hr {
-    width: 85%;
-   
+  width: 85%;
+
 }
 
 
 
 .box-color {
-    background-color: black;
-   border: 1px solid black;
-   width: 50%;
-  
+  background-color: black;
+  border: 1px solid black;
+  width: 50%;
+
 
 }
 
 .hr2 {
-    width: 85%;
+  width: 85%;
 }
 
 .inp-w {
-    width: 90%;
-    height: 25%;
-    border: 1px solid white;
+  width: 90%;
+  height: 25%;
+  border: 1px solid white;
 }
 
 .forgot-passw {
-    margin-top: 15px;
-    margin-right: 20px;
-   
+  margin-top: 15px;
+  margin-right: 20px;
+
 }
 
 .bttn {
-    width: 80%;
-    height: 25%;
-    padding-bottom: 5px;
-    background-color: blue;
-    border: 1px solid blue;
-    color: white;
-    transition: transform 0.2s ease-in-out;
+  width: 80%;
+  height: 25%;
+  padding-bottom: 5px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+  transition: transform 0.2s ease-in-out;
 }
 
 
 
-.bttn:hover{
-    transform: scale(1.1);  
+.bttn:hover {
+  transform: scale(1.1);
 }
+
 .bttn2 {
-    width: 80%;
-    height: 25%;
-    padding-bottom: 5px;
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-    transition: transform 0.2s ease-in-out;
+  width: 80%;
+  height: 25%;
+  padding-bottom: 5px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  transition: transform 0.2s ease-in-out;
 }
 
 
 
-.bttn2:hover{
-    transform: scale(1.1);  
+.bttn2:hover {
+  transform: scale(1.1);
 }
 
 
@@ -70,154 +71,171 @@ hr {
 /* sign-up */
 
 
-.txt{
-    color: white;
-}
-.blk{
-    color: black;
+.txt {
+  color: white;
 }
 
+.blk {
+  color: black;
+}
 
 
- 
+
+
 
 /* landing-page */
 
-.signup-login{
-    text-decoration: none;
-    transition: transform 0.1s ease-in-out;
-    background-color: transparent;
-    color: black;
-    font-family: sans-serif;
-    font-weight:lighter;
-    margin-left: -25%;
-    border: 1px solid black;
-    
-}
-
-.signup-login:hover{
-    transform:scale(1.1) ;
-
-    background-color: black;
-    color: white;
-}
-.lhs{
-    margin-top: 7%;
-   
-    color: black;
-    border-radius: 25px;
-    
-
-}
-.ic-pop{
-     margin-top: -25%;
+.signup-login {
+  text-decoration: none;
+  transition: transform 0.1s ease-in-out;
+  background-color: transparent;
+  color: black;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: -25%;
+  border: 1px solid black;
 
 }
 
+.signup-login:hover {
+  transform: scale(1.1);
 
-.srch{
-    transition: transform ease-in-out 0.1s;
-    color: black;
-    border-color: black;
+  background-color: black;
+  color: white;
 }
-.srch:hover{
-    background-color: black;
-    color: white;
+
+.lhs {
+  margin-top: 7%;
+
+  color: black;
+  border-radius: 25px;
+
+
+}
+
+.ic-pop {
+  margin-top: -25%;
+
+}
+
+
+.srch {
+  transition: transform ease-in-out 0.1s;
+  color: black;
+  border-color: black;
+}
+
+.srch:hover {
+  background-color: black;
+  color: white;
 }
 
 
 
 /* add-profile */
 
-.bio{
-    width: 90%;
+.bio {
+  width: 90%;
 
 }
-.add-new-acc{
-    transition: transform 0.1s ease-in-out;
-    width: 50%;
-    margin-left: -5.4%;
-    border: transparent;
+
+.add-new-acc {
+  transition: transform 0.1s ease-in-out;
+  width: 50%;
+  margin-left: -5.4%;
+  border: transparent;
 
 }
-.add-new-acc:hover{
-    transform: scale(1.03);
-    background: linear-gradient(135deg, #A100FF, #F200FF);
-    color: white;
+
+.add-new-acc:hover {
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #A100FF, #F200FF);
+  color: white;
 }
 
 
 /*post-list  */
-.posit{
-    position: relative;
-}
-.isrch{
-    position: absolute;
-    bottom: 35%;
-    margin-left: 1%;
-    transform: translate(50,50);
-}
-.pos{
-    text-decoration: none;
-}
-.post-profile-pic{
-    width: 6%;
-    height: 45px;
-    
-}
-.blknwhite{
-    transition: transform 0.1s ease-in-out;
-    background-color: white;
-   border-color: black;
-   padding: 5px;
-}
-.blknwhite:hover{
-background-color: black;
-    color: white;
-    transform: scale(1.01);
-    
-}
-.srch-width{
-    width: 500px;
-    background-color:rgb(251, 252, 252)
-}
-.badg{
-    margin-left: -1%;
-    border-radius: 50%;
-    
-    
+.posit {
+  position: relative;
 }
 
-.txt-pop{
-    transition:transform 0.05s ease-in-out ;
-    display: inline-block;
-
-}
-.txt-pop:hover{
-    transform: scale(1.07);
+.isrch {
+  position: absolute;
+  bottom: 35%;
+  margin-left: 1%;
+  transform: translate(50, 50);
 }
 
-.add-profile-color{
-    background-color: transparent;
-   color: white;
-    transition: transform 0.1s ease-in-out;
-    border:1px solid white
-}
-.add-profile-color:hover{
-    background-color: black;
-    color: white;
-    transform: scale(1.02);
+.pos {
+  text-decoration: none;
 }
 
-.edit-profile{
-    
-    border: 1px solid black;
-    color: black;
+.post-profile-pic {
+  width: 6%;
+  height: 45px;
 
 }
-.edit-profile:hover{
-    border-color: white;
+
+.blknwhite {
+  transition: transform 0.1s ease-in-out;
+  background-color: white;
+  border-color: black;
+  padding: 5px;
 }
+
+.blknwhite:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.01);
+
+}
+
+.srch-width {
+  width: 500px;
+  background-color: rgb(251, 252, 252)
+}
+
+.badg {
+  margin-left: -1%;
+  border-radius: 50%;
+
+
+}
+
+.txt-pop {
+  transition: transform 0.05s ease-in-out;
+  display: inline-block;
+
+}
+
+.txt-pop:hover {
+  transform: scale(1.07);
+}
+
+.add-profile-color {
+  background-color: transparent;
+  color: white;
+  transition: transform 0.1s ease-in-out;
+  border: 1px solid white
+}
+
+.add-profile-color:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.02);
+}
+
+.edit-profile {
+
+  border: 1px solid black;
+  color: black;
+
+}
+
+.edit-profile:hover {
+  border-color: white;
+}
+
 @media (min-width: 992px) {
   .sidebar-box {
     position: sticky;
@@ -228,80 +246,221 @@ background-color: black;
 
 
 
-.pop{
-    transition: transform 0.2s ease-in-out;
+.pop {
+  transition: transform 0.2s ease-in-out;
 
 }
-.pop:hover{
-    transform: scale(1.1);
-    background: #000;
-}
-.six{
-    margin-left: -80%;
+
+.pop:hover {
+  transform: scale(1.1);
+
 }
 
+.six {
+  margin-left: -80%;
+}
 
 
-   
-    .body1 {
-      font-family: 'Times New Roman', serif;
-      background-color: #f8f9fa;
-      color: #212529;
-    }
 
-    
-    .navbar {
-      background-color: #ffffff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
 
-   
-    .tribio-title {
-      font-size: 4rem;
-      font-weight: bold;
-    }
+.body1 {
+  font-family: 'Times New Roman', serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
 
-  
-    .tribio-tagline {
-      font-size: 1.5rem;
-      font-style: italic;
-      margin-bottom: 2rem;
-    }
 
-    
-    .signup-login2 {
-      font-size: 1.25rem;
-      padding: 0.6rem 1.8rem;
-    }
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 
-    
-    .hero-img {
-      max-width: 420px;
-      border-radius: 20px;
-      margin-top: 10%;
-    }
 
-    
-    .footer {
-      background-color: #ffffff;
-      padding-top: 20px;
-      padding-bottom: 50px;    
-      margin-top: 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #6c757d;
-      border-top: 1px solid #dee2e6;
-    }
+.tribio-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
 
-    .signup{
-        transition: 0.3s ease-in ;
 
-    }
+.tribio-tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
 
-    .signup:hover{
-        background-color: white;
-        
-    }
 
-    
- 
+.signup-login2 {
+  font-size: 1.25rem;
+  padding: 0.6rem 1.8rem;
+}
+
+
+.hero-img {
+  max-width: 420px;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+
+
+.footer {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+  border-top: 1px solid #dee2e6;
+}
+
+.signup {
+  transition: 0.3s ease-in;
+
+}
+
+.signup:hover {
+  background-color: white;
+
+}
+
+
+.bb {
+  margin-left: 1%;
+}
+
+.b {
+  margin-left: -10%;
+}
+
+.z {
+  margin-left: 22%;
+}
+
+.zz {
+  margin-left: 25%;
+}
+
+.posts-container {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.post-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.post-card-img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.user-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.user-bar img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-bar .username {
+  font-weight: 600;
+}
+
+.user-bar .time {
+  color: #777;
+  font-size: 0.85rem;
+}
+
+.post-content {
+  padding: 15px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.post-actions a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.post-actions a:hover {
+  background-color: #f0f0f3;
+  color: #0d6efd;
+}
+
+@media (max-width: 768px) {
+  .posts-container {
+    padding: 0 10px;
+  }
+}
+
+.post-profile-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+
+.sidebar-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-left: -3%;
+}
+
+.post-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-picc {
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #ddd; 
+}

@@ -12,10 +12,74 @@
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <style>
+    
+    
+    .posts-box {
+      margin: 0 auto 30px auto;
+    }
+
+   
+    .profile-box img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    /* Post card style */
+    .post-card {
+      background: #fff;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .post-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .user-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .user-bar img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .post-content {
+      padding: 10px 15px;
+      font-size: 1.1rem;
+    }
+
+    .post-actions {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+    }
+
+    .post-actions a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .post-actions a:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:rgb(223, 221, 221);">
+<body style=" 
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;">
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" style="background-color:#e0e3eb;">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold fs-3" href="#" style="font-family: 'Times New Roman'; color: black;">
         Tribio
@@ -27,156 +91,111 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="d-flex  flex-grow-1" role="search">
-          <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search" style="width: 250px; margin-left: 47%;">
+        <form class="d-flex flex-grow-1" role="search">
+          <input class="form-control rounded-pill me-2" type="search" placeholder="Search" aria-label="Search"
+            style="width: 250px; margin-left: 47%;">
           <button class="btn btn-light rounded-pill" type="submit">
             <i class="fa-solid fa-search"></i>
           </button>
         </form>
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item ms-2">
-            <a class="nav-link active" href="#">
-              <i class="fa-solid fa-home fs-5 me-2"></i> 
-            </a>
+            <a class="nav-link active" href="#"><i class="fa-solid fa-home fs-5 me-2"></i></a>
           </li>
           <li class="nav-item ms-2 position-relative">
             <a class="nav-link active" href="#">
               <i class="fa-solid fa-bell fs-5 me-3 ps-2"></i>
-              <span class="badge  bg-danger rounded-pill position-absolute six    ">6</span>
+              <span class="badge bg-danger rounded-pill position-absolute six">6</span>
             </a>
           </li>
-          <li class="nav-item ms-2">
-            <a class="nav-link active" href="#">
-              <i class="fa-solid fa-user fs-5 me-2"></i>
-            </a>
+          <li class="nav-item ms-2"><a class="nav-link active" href="#"><i class="fa-solid fa-user fs-5 me-2"></i></a>
           </li>
-          <li class="nav-item ms-2">
-            <a class="nav-link active" href="#">
-              <i class="fa-solid fa-users fs-5 me-2"></i> 
-            </a>
+          <li class="nav-item ms-2"><a class="nav-link active" href="#"><i class="fa-solid fa-users fs-5 me-2"></i></a>
           </li>
         </ul>
-
-        
-        
-
-      
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">
-              <i class="fa-solid fa-arrow-right-from-bracket fs-5 me-1"></i> 
-            </a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="#"><i
+                class="fa-solid fa-arrow-right-from-bracket fs-5 me-1"></i></a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- end nav bar -->
+  <!-- Profile Section -->
+  <div class="container row mx-auto  mt-5">
 
-
-  <div class="container mt-5 d-flex justify-content-center align-items-center vh-50">
-
-
-    <div class="row  text-center d-flex justify-content-center">
-      <div class="col-lg-5 col-md-10 col-12 border border-2 rounded-4 shadow  w-75 pb-5  ">
-        <img class=" mt-4 img-fluid w-25 rounded-circle"
-          src="https://img.freepik.com/premium-photo/happy-man-ai-generated-portrait-user-profile_1119669-1.jpg?w=2000"
-          style=" background-image: url('./imgs/pexels-peter-olexa-2214257-4012966.jpg');
-    background-size: cover;background-position: center; background-repeat: no-repeat; 
-    margin: 0;   " alt="">
-        <div class="mt-2  mx-auto">
-
-          <span class="fs-2 ms-1 text-center">Red John </span>
-          
-        </div>
-        <p class="fs-4 ">@dr_joe_nh</p>
-        <div>
-          <p class="fs-4"> Intern @ Luminar | Aspiring Software Developer | Python | HTML | CSS | Bootstrap </p>
-        </div>
-
-
-        <div class="mt-3 pt-3 d-flex justify-content-evenly">
-          <span class="fs-5"> <strong>12</strong> Posts</span>
-          <span class="fs-5 ps-5"> <strong>103</strong> Followers</span>
-          <span class="fs-5"> <strong>459</strong> Connections</span>
-
-        </div>
-        <div class="fs-3 mt-4 justify-content-center  d-flex">
-          <a href="./Add-Profile.html" class="blknwhite  me-2 p-2 edit-profile rounded-pill text-center w-100" style="text-decoration: none; ; ">Edit Profile</a>
-   <button type="button" class="p-2 rounded-3 text-center blknwhite"><i class="fa-solid fa-ellipsis"></i></button>
-        </div>
+    <div class="col-lg-12 col-md-6 fs-3 profile-box border border-2 rounded-4 shadow text-center p-4">
+      <img class="rounded-circle mb-3 "
+        src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" style="max-width: 300px;">
+      <h2 class="fs-2">Red John</h2>
+      <p class="fs-4">@dr_joe_nh</p>
+      <span class="fs-4 d-block px-3">
+        Aspiring Software Engineer | Python | Java | CPP <br>
+        <span class="text-dark">HTML | CSS | Bootstrap | SQL</span>
+      </span>
+      <div class="mt-3 pt-3  d-flex justify-content-evenly">
+        <span class="fs-4"><strong>12</strong> Posts</span>
+        <span class="fs-4"><strong>103</strong> Followers</span>
+        <span class="fs-4"><strong>459</strong> Connections</span>
       </div>
-
-
-<div class="col-lg-4 col-md-10 col-12 border border-2 rounded-4 shadow mt-5  w-75  ">
-       
-        
-        <div class="mt-2 p-3  ">
-          <h3 class="fs-1"> About</h3>
-          <p class="fs-4 mt-4">Hello! I am Red John, a B.Tech Computer Science Engineering graduate (2025). I enjoy solving problems, building web applications, and learning new technologies. Passionate about software development and always eager to explore opportunities where I can contribute and grow.</p>
-
-          <p class="fs-5 pt-3 text-start"><strong>Email:</strong> drjoenh2007@gmail.com</p>
-          <p class="fs-5 text-start"><strong>Joined:</strong> December 2023</p>
-          <p class="fs-5 text-start"><strong>Location:</strong> San Francisco, USA</p>
-          
-        </div>
-
-        </div>
-
-<div class="col-lg-7 col-md-10 col-12 border border-2 rounded-4 shadow mt-5  w-75 pb-5
- ">
-       
-
-
-        <h3 class="text-center mt-3 pt-2 pb-4"> Your Posts </h3>
-         
-
-        <div class="card pb-3">
-          <img src="./imgs/soundtrap-ddwbTn5HDdQ-unsplash.jpg" class="card-img-top  " style="
-    background-size: cover;       
-    background-position: center;  
-    background-repeat: no-repeat;
-    height: 100vh;                
-    margin: 0; max-height: 900px;  " alt="...">
-          <div class="card-body">
-            <p class="text-start card-text fs-5">Glad to post my first work in the field of web dev....</p>
-          </div>
-          <hr class="w-100">
-          <div class="d-flex fs-3 justify-content-evenly">
-
-            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-thumbs-up "></i>Like</a>
-            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-message"></i>Comment</a>
-            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-share"></i>Share</a>
-          </div>
-
-
-        </div>
-
-        <div class="mt-5 card">
-          <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg" class="card-img-top  "
-            style="max-height: 850px;" alt="...">
-          <div class="card-body">
-            <p class="text-start card-text fs-5">Its been 2months since i have been indulged in the world of web dev... </p>
-          </div>
-          <hr class="w-100">
-          <div class="d-flex fs-3 justify-content-evenly">
-
-            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-thumbs-up "></i>Like</a>
-            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-message"></i>Comment</a>
-            <a style="text-decoration: none; color: black;" href=""><i class="fa-solid fa-share"></i>Share</a>
-          </div>
-
-
-        </div>
-
-
-
+      <div class="fs-3 mt-4 d-flex justify-content-center gap-2">
+        <a href="./Add-Profile.html" class="blknwhite p-2 edit-profile rounded-pill text-center w-100"
+          style="text-decoration: none; ">Edit Profile</a>
+        <button type="button" class="p-2 rounded-3 text-center blknwhite"><i class="fa-solid fa-ellipsis"></i></button>
       </div>
     </div>
+
+  
+    <div class="mt-5 col-lg-12  about-box border border-2 rounded-4 shadow p-5">
+      <h3 class="fs-2">About</h3>
+      <p class="fs-4 mt-4">Hello! I am Red John, a B.Tech Computer Science Engineering graduate (2025). I enjoy solving
+        problems, building web applications, and learning new technologies. Passionate about software development and
+        always eager to explore opportunities where I can contribute and grow.</p>
+      <p class="fs-5 mt-4"><strong>Email:</strong> drjoenh2007@gmail.com</p>
+      <p class="fs-5"><strong>Joined:</strong> December 2023</p>
+      <p class="fs-5"><strong>Location:</strong> San Francisco, USA</p>
+    </div>
+
+   
+    <div class="mt-5 col-lg-12 col-md-6 posts-box border border-2 rounded-4 shadow p-4">
+      <h3 class="text-center mb-4">Your Posts</h3>
+
+      <div class="post-card border border-2">
+        <div class="user-bar">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
+          <div>
+            <div class="username">Red John</div>
+            <div class="time">2 hours ago</div>
+          </div>
+        </div>
+        <img src="https://tse4.mm.bing.net/th/id/OIF.Phe4zBipue3Yo4k8AxCIUQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Post Image">
+        <div class="post-content">Lorem ipsum Gemini dolor sit amet consectetur adipisicing elit. Id nemo amet ipsum atque qui officiis architecto sequi blanditiis sapiente numquam consectetur facere pariatur voluptatum tenetur repellendus vero, temporibus quos official</div>
+        <div class="post-actions">
+          <a href="#"><i class="fa-solid fa-thumbs-up"></i> Like</a>
+          <a href="#"><i class="fa-solid fa-comment"></i> Comment</a>
+          <a href="#"><i class="fa-solid fa-share"></i> Share</a>
+        </div>
+      </div>
+
+      <div class="post-card border border-2">
+        <div class="user-bar">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
+          <div>
+            <div class="username">Red John</div>
+            <div class="time">1 week ago</div>
+          </div>
+        </div>
+        <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg" style="max-height: 500px; object-fit: cover;" alt="Post Image">
+        <div class="post-content">Its been 2 months since I have been indulged in the world of web dev...</div>
+        <div class="post-actions">
+          <a href="#"><i class="fa-solid fa-thumbs-up"></i> Like</a>
+          <a href="#"><i class="fa-solid fa-comment"></i> Comment</a>
+          <a href="#"><i class="fa-solid fa-share"></i> Share</a>
+        </div>
+      </div>
+
+    </div>
   </div>
-
-
 </body>
 
 </html>
